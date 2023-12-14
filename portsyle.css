@@ -1,0 +1,326 @@
+
+.ima img{
+    
+    width: 100%;
+    height: 600px;
+    
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    justify-content: space-evenly;
+    color: rgb(181, 159, 115);
+    text-decoration: none;
+    margin: 20px;
+    background-color: transparent;
+
+}
+
+a:hover{
+    text-shadow: 5px;
+    color: darkgoldenrod;
+    text-shadow: 0 0 5px rgb(18, 17, 17);
+    
+
+}
+
+.main{
+    padding: 30px;
+    display: flex;
+    width: 350px;
+   
+    
+    left: 650px;
+    top: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+span{
+    color: rgb(109, 102, 9);
+}
+
+
+.row2 h2{
+    color: goldenrod;
+}
+.row2{
+    
+   position: static;
+  display: flex;
+  flex-direction: column;
+
+}
+ 
+.col1:hover{
+    text-shadow: 5px;
+    color: rgb(202, 199, 191);
+    text-shadow: 0 0 5px rgb(89, 167, 11);
+    
+}
+
+.col1{
+    padding: 20px;
+    width: 600px;
+    
+    color: rgb(162, 125, 30);
+    left: 50px;
+    top: 650px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.main:hover{
+    text-shadow: 5px;
+    color: rgb(202, 199, 191);
+    text-shadow: 0 0 5px rgb(89, 167, 11);
+    
+}
+
+.main h2{
+    
+    text-align: center;
+     
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+
+}
+.row2 img{
+    width: 100%;
+    height: 620px;
+}
+
+.row{
+   
+   
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+
+
+}
+
+
+/* Initial styles for .col1 */
+.col {
+    background-color: rgb(20, 64, 66);
+    width: 200px; /* Initial width */
+    height: 150px; /* Initial height */
+    margin: 50px;
+    padding: 50px;
+    border-radius: 15px;
+    overflow: hidden; /* Hide overflowing content */
+    transition: width 0.3s ease-out, height 0.3s ease-out; /* Add a smooth transition effect */
+}
+
+/* Styles for the image */
+.col img {
+    
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+
+/* Styles for the heading */
+.col h4 {
+    color: goldenrod;
+    text-align: center;
+    margin-bottom: 10px; /* Add spacing between the heading and paragraph */
+}
+
+/* Hide paragraph by default */
+.col p {
+    display: none;
+    color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/* Hover styles for .col1 */
+.col:hover {
+    width: 500px; /* Enlarge width on hover */
+    height: auto; /* Auto-adjust height to fit content */
+    box-shadow: 0 0 10px rgb(151, 137, 16); /* Add a box shadow on hover */
+    border: 6px groove rgb(157, 143, 10); /* Add a border on hover */
+}
+
+.col:hover p {
+    display: block; /* Show the paragraph on hover */
+}
+.head h2{
+    color: rgb(156, 118, 22);
+   text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.col1 h2{
+    color: rgb(156, 118, 22);
+   text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row3 h2{
+    color: rgb(156, 118, 22);
+    text-align: center;
+     font-style: italic;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .row4{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+
+    
+ }
+.col3{
+    text-align: center;
+    justify-content: center;
+    width: 500px; /* Initial width */
+    height: 300px; /* Initial height */
+    margin: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    color: goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.col3 h3{
+    font-style: italic;
+    text-align: center;
+}
+.col3 button{
+    margin-top: 5px;
+}
+form {
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    
+}
+
+i{
+    width: 50px;
+   
+}
+.col3 a{
+    color: white;
+}
+.col3 a:hover{
+    color: aquamarine;
+}
+
+
+@media screen and (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    header{
+        width: 600px;
+        background-color: rgb(218, 218, 212);
+        color: black;
+        padding: 0;
+    }
+
+    nav{
+        width: 600px;
+        background-color: bisque;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .row{
+        background-color: rgb(15, 127, 127);
+        width: 600px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .row2 img{
+        width: 600px;
+        height: 400px;
+        margin: 0;
+        padding: 0;
+    }
+
+   .ima img{
+
+    width: 600px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+   }
+   .main{
+    margin: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+    width: 600px;
+   }
+
+   .col1{
+    margin: 10px;
+    padding: 6px;
+    background-color: antiquewhite;
+  
+   }
+
+   hr{
+    width: 600px;
+   }
+
+  .row{
+    background-color: antiquewhite;
+  }
+
+  .col{
+    width: 400px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    
+  }
+  .head{
+    background-color: antiquewhite;
+    width: 600px;
+  }
+  .row3{
+    background-color: rgb(213, 209, 204);
+    width: 600px;
+  }
+
+  .row4{
+    background-color: rgb(205, 222, 222);
+        width: 600px;
+       
+        display: flex;
+        flex-direction: column;
+  }
+
+  
+}
+    
